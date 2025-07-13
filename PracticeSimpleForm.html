@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 10px 10px 10px 10px;
+       }   
+       body{
+        margin: 35px 10px 10px 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        background-color: rgb(230, 223, 223);
+        border: 2px solid black;
+        border-radius: 10px;
+        
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type=""]{
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+    }
+    .Heading{
+        text-align: center;
+    }
+    input[type="submit"]{
+        background-color: yellowgreen;
+        color: white;
+        border: none;
+        width: 98%;
+        padding: 10px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <h1 class="Heading">Simple Form</h1><hr>
+    <h2>User Information</h2>
+    <p>Name: <input type="text" required placeholder="Enter your name"></p>
+    <p>Email: <input type="email" required placeholder="Enter your email"></p>
+    <p>Phone: <input type="tel" required placeholder="Enter your phone number"></p>
+    <p>Address: <input type="text" required placeholder="Enter your address"></p>
+    <p>City: <input type="text" required placeholder="Enter your city"></p>
+    <p> <input type="submit" value="Submit"></p>
+</body>
+</html>
